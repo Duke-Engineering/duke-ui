@@ -1,1 +1,1 @@
-export { default } from "./duke-table";
+export { default } from './duke-table';

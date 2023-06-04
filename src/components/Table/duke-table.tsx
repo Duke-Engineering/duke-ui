@@ -1,4 +1,4 @@
-import React, { FC } from "react";
+import React, { FC } from 'react';
 
 interface TableComponentProps<TData = any> {
   title: string;
@@ -26,10 +26,10 @@ interface TableComponentProps<TData = any> {
   renderGridLoader?: FC;
   refetch: () => void;
   hasSearch?: boolean;
-  defaultView?: "grid" | "list";
+  defaultView?: 'grid' | 'list';
 }
 
-const Table: FC<TableComponentProps> = ({}) => {
+const Table: FC<TableComponentProps> = () => {
   return <div>duke-table</div>;
 };
 
